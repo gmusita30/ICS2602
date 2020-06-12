@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+
+public class KeyboardReaderGui
+{
+		int x = Integer.parseInt(str1);
+		public static void main(String[]args)
+		{
+				String messge =
+						JOptionPane.showInputDialog("Please enter a message.");
+						
+				String msg = "Your message was \"" + message + "\"";
+				JOptionPane.showMessageDialog(null, msg);
+		}
+}
